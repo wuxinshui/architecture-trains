@@ -1,4 +1,4 @@
-package com.wxs.hash.redis;
+package com.wxs.ajmeter;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.util.StopWatch;

@@ -1,4 +1,4 @@
-package com.wxs.hash.redis;
+package com.wxs.ajmeter;
 
 public class AJReport {
 

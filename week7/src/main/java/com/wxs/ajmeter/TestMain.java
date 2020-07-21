@@ -1,4 +1,4 @@
-package com.wxs.hash.redis;
+package com.wxs.ajmeter;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
