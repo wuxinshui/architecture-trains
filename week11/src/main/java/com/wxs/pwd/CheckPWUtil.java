@@ -31,7 +31,6 @@ public class CheckPWUtil {
         return bCryptPasswordEncoder.matches(salt + passwordPlaintext, passwordCiphertext);
     }
 
-
     /**
      * Spring security
      * customizedPasswordEncoder
@@ -47,7 +46,6 @@ public class CheckPWUtil {
         return customizedPasswordEncoder.matches(salt + passwordPlaintext, passwordCiphertext);
     }
 
-
     public static void main(String[] args) {
         String userId = "12";
         String passwordPlaintext = "gkbbbb123";
@@ -58,8 +56,5 @@ public class CheckPWUtil {
 
         System.out.println(checkPW1(userId, passwordPlaintext, passwordCiphertext));
         System.out.println(checkPW2(userId, passwordPlaintext, passwordCiphertext2));
-
-        // System.out.println(bCryptPasswordEncoder.encode("Asd" + passwordPlaintext));
-        // System.out.println(customizedPasswordEncoder.encode("Asd" + passwordPlaintext));
     }
 }
