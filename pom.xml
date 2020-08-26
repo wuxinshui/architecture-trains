@@ -20,6 +20,7 @@
         <module>week5-a</module>
         <module>week7</module>
         <module>week8</module>
+        <module>week10</module>
     </modules>
 
     <dependencies>
